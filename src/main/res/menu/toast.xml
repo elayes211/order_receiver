@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/toast0"
+        android:title="με Γαλοπουλα" />
+    <item
+        android:id="@+id/toast1"
+        android:title="Τυρί μονο" />
+    <item
+        android:id="@+id/toast2"
+        android:title="με Ζαμπόν" />
+</menu>

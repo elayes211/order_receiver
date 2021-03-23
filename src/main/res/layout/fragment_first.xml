@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/textColor" android:id="@+id/button00"
+        android:background="@drawable/shape" android:layout_width="82.0dip" android:layout_height="86.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="64.0dip" android:text="A1" android:fontFamily="casual" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <Button android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/textColor" android:id="@+id/button01"
+        android:background="@drawable/shape" android:layout_width="82.0dip" android:layout_height="86.0dip" android:layout_marginLeft="12.0dip" android:text="A2" android:fontFamily="casual" app:layout_constraintStart_toEndOf="@id/button00" app:layout_constraintTop_toTopOf="@id/button00" />
+    <Button android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/textColor" android:id="@+id/button02"
+        android:background="@drawable/shape" android:layout_width="82.0dip" android:layout_height="86.0dip" android:layout_marginLeft="12.0dip" android:text="A3" android:fontFamily="casual" app:layout_constraintStart_toEndOf="@id/button01" app:layout_constraintTop_toTopOf="@id/button01" />
+    <Button android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/textColor" android:id="@+id/button03"
+        android:background="@drawable/shape" android:layout_width="82.0dip" android:layout_height="86.0dip" android:layout_marginLeft="12.0dip" android:text="A4" android:fontFamily="casual" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/button02" app:layout_constraintTop_toTopOf="@id/button01" />
+    <Button android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/textColor" android:id="@+id/button04"
+        android:background="@drawable/shape" android:layout_width="82.0dip" android:layout_height="86.0dip" android:layout_marginTop="48.0dip" android:text="B1" android:fontFamily="casual" app:layout_constraintStart_toStartOf="@id/button00" app:layout_constraintTop_toBottomOf="@id/button00" />
+    <Button android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/textColor" android:id="@+id/button05"
+        android:background="@drawable/shape" android:layout_width="82.0dip" android:layout_height="86.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="48.0dip" android:text="B2" android:fontFamily="casual" app:layout_constraintStart_toEndOf="@id/button04" app:layout_constraintTop_toBottomOf="@id/button01" />
+    <Button android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/textColor" android:id="@+id/button06"
+        android:background="@drawable/shape" android:layout_width="82.0dip" android:layout_height="86.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="48.0dip" android:text="B3" android:fontFamily="casual" app:layout_constraintStart_toEndOf="@id/button05" app:layout_constraintTop_toBottomOf="@id/button02" />
+    <Button android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/textColor" android:id="@+id/button07"
+        android:background="@drawable/shape" android:layout_width="82.0dip" android:layout_height="86.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="48.0dip" android:text="B4" android:fontFamily="casual" app:layout_constraintStart_toEndOf="@id/button06" app:layout_constraintTop_toBottomOf="@id/button03" />
+    <Button android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/textColor" android:id="@+id/button08"
+        android:background="@drawable/shape" android:layout_width="82.0dip" android:layout_height="86.0dip" android:layout_marginTop="48.0dip" android:text="C1" android:fontFamily="casual" app:layout_constraintStart_toStartOf="@id/button04" app:layout_constraintTop_toBottomOf="@id/button04" />
+    <Button android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/textColor" android:id="@+id/button09"
+        android:background="@drawable/shape" android:layout_width="82.0dip" android:layout_height="86.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="48.0dip" android:text="C2" android:fontFamily="casual" app:layout_constraintStart_toEndOf="@id/button08" app:layout_constraintTop_toBottomOf="@id/button05" />
+    <Button android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/textColor" android:id="@+id/button010"
+        android:background="@drawable/shape" android:layout_width="82.0dip" android:layout_height="86.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="48.0dip" android:text="C3" android:fontFamily="casual" app:layout_constraintStart_toEndOf="@id/button09" app:layout_constraintTop_toBottomOf="@id/button06" />
+    <Button android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/textColor" android:id="@+id/button011"
+        android:background="@drawable/shape" android:layout_width="82.0dip" android:layout_height="86.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="48.0dip" android:text="C4" android:fontFamily="casual" app:layout_constraintStart_toEndOf="@id/button010" app:layout_constraintTop_toBottomOf="@id/button07" />
+
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="wrap_content"
+        android:layout_height="46.0dip"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="32.0dip"
+        android:background="@drawable/shape_blue2"
+        android:fontFamily="casual"
+        android:text=" ΔΕΞΙΑ "
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/textColor"
+        android:textSize="24.0sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/synolo" />
+
+    <Button
+        android:id="@+id/synolo"
+        android:layout_width="wrap_content"
+        android:layout_height="46.0dip"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/shape_blue2"
+        android:fontFamily="casual"
+        android:text=" ΣΥΝΟΛΟ "
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/textColor"
+        android:textSize="24.0sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_first"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

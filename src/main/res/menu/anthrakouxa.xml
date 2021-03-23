@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Lux">
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/anthrakouxa0"
+            android:title="Πορτοκαλάδα με Ανθρ." />
+        <item
+            android:id="@+id/anthrakouxa1"
+            android:title="Πορτοκαλάδα χωρίς" />
+        <item
+            android:id="@+id/anthrakouxa2"
+            android:title="Gazoza/ Sprite" />
+        <item
+            android:id="@+id/anthrakouxa3"
+            android:title="Βυσσινάδα" />
+    </menu>
+    </item>
+    <item
+        android:id="@+id/anthrakouxa4"
+        android:title="Coca Cola" />
+    <item
+        android:id="@+id/anthrakouxa5"
+        android:title="Hell Energy" />
+    <item
+        android:id="@+id/anthrakouxa6"
+        android:title="Red Bull" />
+    <item
+        android:id="@+id/anthrakouxa7"
+        android:title="Perrier" />
+</menu>

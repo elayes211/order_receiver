@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fagito0"
+        android:title="Μερίδα Γύρο" />
+    <item
+        android:id="@+id/fagito1"
+        android:title="Σουβλάκι Χοιρινό" />
+    <item
+        android:id="@+id/fagito2"
+        android:title="Σουβλάκι Κοτόπουλο" />
+    <item
+        android:id="@+id/fagito3"
+        android:title="Πατάτες" />
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/beers0"
+        android:title="Corona" />
+    <item
+        android:id="@+id/beers1"
+        android:title="Amstel" />
+    <item
+        android:id="@+id/beers2"
+        android:title="Alpha" />
+</menu>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="356dp"
+        android:layout_height="246dp"
+        android:layout_marginTop="48.0dip"
+        android:background="@drawable/buttons_textviews"
+        android:ems="10"
+        android:gravity="start|center|top"
+        android:hint="Καταχωρήσεις τραπεζιού ..."
+        android:paddingStart="4.0dip"
+        android:paddingLeft="4.0dip"
+        android:selectAllOnFocus="true"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColor"
+        android:textSize="22.0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="268.0dip"
+        android:layout_height="53.0dip"
+        android:layout_marginTop="8.0dip"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:gravity="start|center|top"
+        android:hint="Επιλεγμένη καταχώρηση ..."
+        android:paddingLeft="4.0dip"
+        android:selectAllOnFocus="true"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColor"
+        android:textSize="18.0sp"
+        app:layout_constraintStart_toStartOf="@id/editTextTextMultiLine"
+        app:layout_constraintTop_toBottomOf="@id/editTextTextMultiLine"
+        android:paddingStart="4.0dip" />
+    <Button android:textSize="20.0sp" android:id="@+id/button2"
+        android:background="@drawable/plus_minus" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginLeft="8.0dip" android:text="+" android:onClick="addOne" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/button" app:layout_constraintTop_toTopOf="@id/button"
+        android:layout_marginStart="8.0dip" />
+    <Button android:textSize="20.0sp" android:id="@+id/button"
+        android:background="@drawable/plus_minus" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginLeft="8.0dip" android:text="-" android:onClick="removeOne" app:layout_constraintStart_toEndOf="@id/editTextTextMultiLine2" app:layout_constraintTop_toTopOf="@id/editTextTextMultiLine2"
+        android:layout_marginStart="8.0dip" />
+    <ScrollView android:id="@+id/products"
+        android:background="@drawable/shape_blue2" android:layout_width="344.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.567" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/editTextTextMultiLine2">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/test2"
+            android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <Button android:textSize="24.0sp" android:textColor="@color/textColor" android:id="@+id/tea"
+                android:background="@drawable/shape" android:layout_width="144.0dip" android:layout_height="50.0dip" android:layout_marginTop="12.0dip" android:text="ΤΣΑΙ" android:onClick="teaPopup" app:layout_constraintStart_toStartOf="@id/nescafe" app:layout_constraintTop_toBottomOf="@id/nescafe" />
+            <Button android:textSize="24.0sp" android:textColor="@color/textColor" android:id="@id/espresso" android:background="@drawable/shape" android:layout_width="144.0dip" android:layout_height="50.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="15.0dip" android:text="ESPRESSO" android:onClick="espressoPopup" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="16.0dip" />
+            <Button android:textSize="24.0sp" android:textColor="@color/textColor" android:id="@id/espresso2" android:background="@drawable/shape" android:layout_width="144.0dip" android:layout_height="50.0dip" android:layout_marginRight="16.0dip" android:text="ΜΠΥΡΕΣ" android:onClick="beersPopup" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/espresso"
+                android:layout_marginEnd="16.0dip" />
+            <Button android:textSize="24.0sp" android:textColor="@color/textColor" android:id="@+id/nescafe"
+                android:background="@drawable/shape" android:layout_width="144.0dip" android:layout_height="50.0dip" android:layout_marginTop="12.0dip" android:text="NESCAFE" android:onClick="nescafePopup" app:layout_constraintStart_toStartOf="@id/espresso" app:layout_constraintTop_toBottomOf="@id/espresso" />
+
+            <Button android:textSize="20.0sp" android:textColor="@color/textColor" android:id="@+id/anthrakouxa"
+                android:background="@drawable/shape" android:layout_width="143.0dip" android:layout_height="50.0dip" android:layout_marginTop="12.0dip" android:text="ΑΝΘΡΑΚΟΥΧΑ" android:onClick="anthrakouxaPopup" app:layout_constraintStart_toStartOf="@id/tea" app:layout_constraintTop_toBottomOf="@id/tea" />
+
+            <Button
+                android:id="@+id/nero"
+                android:layout_width="143.0dip"
+                android:layout_height="50.0dip"
+                android:layout_marginTop="12.0dip"
+                android:layout_marginRight="16.0dip"
+                android:background="@drawable/shape"
+                android:onClick="neroPopup"
+                android:text="ΝΕΡΟ"
+                android:textColor="@color/textColor"
+                android:textSize="24.0sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/toast"
+                android:layout_marginEnd="16.0dip" />
+            <Button android:textSize="24.0sp" android:textColor="@color/textColor" android:id="@+id/toast"
+                android:background="@drawable/shape" android:layout_width="143.0dip" android:layout_height="50.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:text="TOΣΤ" android:onClick="toastPopup" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/ximoi"
+                android:layout_marginEnd="16.0dip" />
+            <Button android:textSize="24.0sp" android:textColor="@color/textColor" android:id="@+id/fagito"
+                android:background="@drawable/shape" android:layout_width="143.0dip" android:layout_height="50.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="15.0dip" android:text="ΦΑΓΗΤΟ" android:onClick="fagitoPopup" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="@id/anthrakouxa" app:layout_constraintTop_toBottomOf="@id/anthrakouxa" />
+
+            <Button
+                android:id="@+id/ximoi"
+                android:layout_width="144.0dip"
+                android:layout_height="50.0dip"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="16.0dip"
+                android:background="@drawable/shape"
+                android:onClick="ximoiPopup"
+                android:text="ΧΥΜΟΙ"
+                android:textColor="@color/textColor"
+                android:textSize="24.0sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/espresso2"
+                android:layout_marginEnd="16.0dip" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/etc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16.0dip"
+        android:background="@drawable/shape"
+        android:onClick="etcPopup"
+        android:text=" ΛΕΠΤΟΜΕΡΕΙΕΣ "
+        android:textColor="@color/textColor"
+        android:textSize="20.0sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

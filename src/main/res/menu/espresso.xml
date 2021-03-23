@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item0"
+        android:title="Freddo Espresso">
+        <menu>
+            <item
+                android:id="@+id/espresso0"
+                android:title="Σκέτο" />
+            <item
+                android:id="@+id/espresso1"
+                android:title="Μέτριο" />
+            <item
+                android:id="@+id/espresso2"
+                android:title="Γλυκό" />
+            <item
+                android:id="@+id/espresso3"
+                android:title="Προς Γλυκό" />
+            <item
+                android:id="@+id/espresso4"
+                android:title="Προς Σκέτο" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item1"
+        android:title="Freddo Cappuccino">
+        <menu>
+            <item
+                android:id="@+id/espresso5"
+                android:title="Σκέτο" />
+            <item
+                android:id="@+id/espresso6"
+                android:title="Μέτριο" />
+            <item
+                android:id="@+id/espresso7"
+                android:title="Γλυκό" />
+            <item
+                android:id="@+id/espresso8"
+                android:title="Προς Γλυκό" />
+            <item
+                android:id="@+id/espresso9"
+                android:title="Προς Σκέτο" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Espresso">
+        <menu>
+            <item
+                android:id="@+id/item20"
+                android:title="Espresso">
+                <menu>
+                    <item
+                        android:id="@+id/item200"
+                        android:title="Espresso Μονό">
+
+                        <menu>
+                            <item
+                                android:id="@+id/espresso10"
+                                android:title="Σκέτο" />
+                            <item
+                                android:id="@+id/espresso11"
+                                android:title="Μέτριο" />
+                            <item
+                                android:id="@+id/espresso12"
+                                android:title="Γλυκό" />
+                            <item
+                                android:id="@+id/espresso13"
+                                android:title="Προς Γλυκό" />
+                            <item
+                                android:id="@+id/espresso14"
+                                android:title="Προς Σκέτο" />
+                        </menu>
+
+                        </item>
+                    <item
+                        android:id="@+id/item201"
+                        android:title="Espresso Διπλό">
+
+                        <menu>
+                            <item
+                                android:id="@+id/espresso15"
+                                android:title="Σκέτο" />
+                            <item
+                                android:id="@+id/espresso16"
+                                android:title="Μέτριο" />
+                            <item
+                                android:id="@+id/espresso17"
+                                android:title="Γλυκό" />
+                            <item
+                                android:id="@+id/espresso18"
+                                android:title="Προς Γλυκό" />
+                            <item
+                                android:id="@+id/espresso19"
+                                android:title="Προς Σκέτο" />
+                        </menu>
+
+                        </item>
+                </menu>
+            </item>
+
+            <item
+                android:id="@+id/item21"
+                android:title="Cappuccino">
+                <menu>
+                    <item
+                        android:id="@+id/item210"
+                        android:title="Cappuccino Μονό">
+
+                        <menu>
+                            <item
+                                android:id="@+id/espresso20"
+                                android:title="Σκέτο" />
+                            <item
+                                android:id="@+id/espresso"
+                                android:title="Μέτριο" />
+                            <item
+                                android:id="@+id/espresso22"
+                                android:title="Γλυκό" />
+                            <item
+                                android:id="@+id/espresso23"
+                                android:title="Προς Γλυκό" />
+                            <item
+                                android:id="@+id/espresso24"
+                                android:title="Προς Σκέτο" />
+                        </menu>
+
+                    </item>
+                    <item
+                        android:id="@+id/item211"
+                        android:title="Cappuccino Διπλό">
+
+                        <menu>
+                            <item
+                                android:id="@+id/espresso25"
+                                android:title="Σκέτο" />
+                            <item
+                                android:id="@+id/espresso26"
+                                android:title="Μέτριο" />
+                            <item
+                                android:id="@+id/espresso27"
+                                android:title="Γλυκό" />
+                            <item
+                                android:id="@+id/espresso28"
+                                android:title="Προς Γλυκό" />
+                            <item
+                                android:id="@+id/espresso29"
+                                android:title="Προς Σκέτο" />
+                        </menu>
+
+                    </item>
+                </menu>
+            </item>
+            <item
+                android:id="@+id/item30"
+                android:title="Americano">
+                <menu>
+                    <item
+                        android:id="@+id/item300"
+                        android:title="Americano Μονό">
+
+                        <menu>
+                            <item
+                                android:id="@+id/espresso30"
+                                android:title="Σκέτο" />
+                            <item
+                                android:id="@+id/espresso31"
+                                android:title="Μέτριο" />
+                            <item
+                                android:id="@+id/espresso32"
+                                android:title="Γλυκό" />
+                            <item
+                                android:id="@+id/espresso33"
+                                android:title="Προς Γλυκό" />
+                            <item
+                                android:id="@+id/espresso34"
+                                android:title="Προς Σκέτο" />
+                        </menu>
+
+                    </item>
+                    <item
+                        android:id="@+id/item301"
+                        android:title="Americano Διπλό">
+
+                        <menu>
+                            <item
+                                android:id="@+id/espresso35"
+                                android:title="Σκέτο" />
+                            <item
+                                android:id="@+id/espresso36"
+                                android:title="Μέτριο" />
+                            <item
+                                android:id="@+id/espresso37"
+                                android:title="Γλυκό" />
+                            <item
+                                android:id="@+id/espresso38"
+                                android:title="Προς Γλυκό" />
+                            <item
+                                android:id="@+id/espresso39"
+                                android:title="Προς Σκέτο" />
+                        </menu>
+                    </item>
+                </menu>
+            </item>
+        </menu>
+
+    </item>
+
+</menu>

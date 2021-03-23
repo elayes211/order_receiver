@@ -1,0 +1,47 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="reset2"
+    tools:context=".Resume">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/appbar"
+            android:fontFamily="casual"
+            android:text=" Order Receiver "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#ffeaeaea"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <include layout="@layout/resume_content" />
+
+        <Button
+            android:id="@+id/reset2"
+            android:layout_width="wrap_content"
+            android:layout_height="37.0dip"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0.0dip"
+            android:layout_marginRight="-1.0dip"
+            android:background="@drawable/appbar_right"
+            android:fontFamily="casual"
+            android:onClick="reset2"
+            android:text=" ΠΙΣΩ "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/buttonTextColor"
+            android:textSize="24.0sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/etc0"
+        android:title="Decaf" />
+    <item
+        android:id="@+id/etc1"
+        android:title="Extra Γάλα" />
+    <item
+        android:id="@+id/etc2"
+        android:title="Μαύρη Ζάχαρη" />
+    <item
+        android:id="@+id/etc3"
+        android:title="Ζαχαρίνη" />
+    <item
+        android:id="@+id/etc4"
+        android:title="Κανέλα" />
+    <item
+        android:id="@+id/etc5"
+        android:title="Παγάκια" />
+</menu>
